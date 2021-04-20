@@ -29,6 +29,7 @@ public class ScaleInOut : MonoBehaviour
             Object.transform.localScale -= new Vector3(Scale, Scale, Scale)*mul;
         }
         
+
     }
 
    
