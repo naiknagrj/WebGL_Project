@@ -13,10 +13,21 @@ public class ScaleInOut : MonoBehaviour
     //object scale speed
     public float Scale = 2.0f;
     public float mul = 0.5f;
+    float Max = 5;
+    float Min = 1;
 
     // Update is called once per frame
     void Update()
     {
+        transform.localScale = new Vector3(
+          Mathf.Clamp(transform.localScale.x, Min, Max),
+          Mathf.Clamp(transform.localScale.y, Min, Max),
+          Mathf.Clamp(transform.localScale.z, Min, Max)
+     ); transform.localScale = new Vector3(
+           Mathf.Clamp(transform.localScale.x, Min, Max),
+           Mathf.Clamp(transform.localScale.y, Min, Max),
+           Mathf.Clamp(transform.localScale.z, Min, Max)
+      );
         if (_ZoomIn)
         {
             //make a bigger object
