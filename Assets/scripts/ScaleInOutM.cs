@@ -7,8 +7,8 @@ public class ScaleInOutM : MonoBehaviour
 
     float MouseZoomSpeed = 15.0f;
     float TouchZoomSpeed = 0.1f;
-    float ZoomMinBound = 0.1f;
-    float ZoomMaxBound = 179.9f;
+    float ZoomMinBound = 18.0f;
+    float ZoomMaxBound = 65.0f;
     Camera cam;
 
     // Use this for initialization
