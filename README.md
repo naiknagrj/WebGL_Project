@@ -1,2 +1,2 @@
 # webGL_project
-A unity webGL project to display blah blah blah......
+A unity webGL project for skeletal system.
